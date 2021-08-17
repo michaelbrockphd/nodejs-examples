@@ -10,5 +10,8 @@
     "matrix"
   ],
   "author": "Michael Brock, Ph.D",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
 }
