@@ -1,18 +1,16 @@
 {
-  "name": "nodejs-matrix",
+  "name": "nodejs-matrix-operations",
   "version": "1.0.0",
-  "description": "Simple module for handling matrixes.",
+  "description": "Small package with helper methods.",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tsc"
   },
-  "keywords": [
-    "matrix"
-  ],
-  "author": "Michael Brock, Ph.D",
+  "author": "Michael Brock, Ph.D.",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^4.3.5"
+    "typescript": "^4.3.5",
+    "nodejs-matrix": "file:../nodejs-matrix"
   }
 }
