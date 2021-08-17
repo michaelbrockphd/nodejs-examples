@@ -15,3 +15,11 @@ Originally, it did start in the newer versions of JavaScript but after seeing th
 Just to be clear, I am more than experienced in working in Vanilla JavaScript (OO desing, MVC and even KVM from the ground up that I learned for iOS when it was still Objective-C), but now is the perfect time to learn TypeScript rather than build in JavaScript now and build yet again in TypeScript.
 
 Overall, this module has virtually the same classes thus please see the [Golang Matrix Module](https://github.com/michaelbrockphd/golang-example/tree/master/matrix) repository for details.  The only difference is this version has better error handling that should be implemented in the Golang version (D'OH!).
+
+## nodejs-matrix-operations
+
+A small module but for a reason.  Effectively holds the initialization and multiplication functions.
+
+The real purpose of this small module was to ensure I learn how to properly configure the TypeScript transpiler and how to correctly set the dependency section on the NodeJS module (package.json) to import the local module.
+
+This actually proved to be a challenge as by default, the transpiler did not create the declaration files needed and needed [additional reconfiguraiton](https://www.typescriptlang.org/docs/handbook/declaration-files/dts-from-js.html).
