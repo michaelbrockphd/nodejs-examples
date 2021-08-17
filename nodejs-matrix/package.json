@@ -2,9 +2,11 @@
   "name": "nodejs-matrix",
   "version": "1.0.0",
   "description": "Simple module for handling matrixes.",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "rm -rv ./dist/*",
+    "build": "npx tsc"
   },
   "keywords": [
     "matrix"
